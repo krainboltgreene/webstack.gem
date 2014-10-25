@@ -1,3 +1,3 @@
-module Blankgem
+module Webstack
   VERSION = "1.0.0"
 end

@@ -1,16 +1,16 @@
-blankgem
+webstack
 --------
 
-  - [![Quality](http://img.shields.io/codeclimate/github/krainboltgreene/blankgem.gem.svg?style=flat-square)](https://codeclimate.com/github/krainboltgreene/blankgem.gem)
-  - [![Coverage](http://img.shields.io/codeclimate/coverage/github/krainboltgreene/blankgem.gem.svg?style=flat-square)](https://codeclimate.com/github/krainboltgreene/blankgem.gem)
-  - [![Build](http://img.shields.io/travis-ci/krainboltgreene/blankgem.gem.svg?style=flat-square)](https://travis-ci.org/krainboltgreene/blankgem.gem)
-  - [![Dependencies](http://img.shields.io/gemnasium/krainboltgreene/blankgem.gem.svg?style=flat-square)](https://gemnasium.com/krainboltgreene/blankgem.gem)
-  - [![Downloads](http://img.shields.io/gem/dtv/blankgem.svg?style=flat-square)](https://rubygems.org/gems/blankgem)
-  - [![Tags](http://img.shields.io/github/tag/krainboltgreene/blankgem.gem.svg?style=flat-square)](http://github.com/krainboltgreene/blankgem.gem/tags)
-  - [![Releases](http://img.shields.io/github/release/krainboltgreene/blankgem.gem.svg?style=flat-square)](http://github.com/krainboltgreene/blankgem.gem/releases)
-  - [![Issues](http://img.shields.io/github/issues/krainboltgreene/blankgem.gem.svg?style=flat-square)](http://github.com/krainboltgreene/blankgem.gem/issues)
+  - [![Quality](http://img.shields.io/codeclimate/github/krainboltgreene/webstack.gem.svg?style=flat-square)](https://codeclimate.com/github/krainboltgreene/webstack.gem)
+  - [![Coverage](http://img.shields.io/codeclimate/coverage/github/krainboltgreene/webstack.gem.svg?style=flat-square)](https://codeclimate.com/github/krainboltgreene/webstack.gem)
+  - [![Build](http://img.shields.io/travis-ci/krainboltgreene/webstack.gem.svg?style=flat-square)](https://travis-ci.org/krainboltgreene/webstack.gem)
+  - [![Dependencies](http://img.shields.io/gemnasium/krainboltgreene/webstack.gem.svg?style=flat-square)](https://gemnasium.com/krainboltgreene/webstack.gem)
+  - [![Downloads](http://img.shields.io/gem/dtv/webstack.svg?style=flat-square)](https://rubygems.org/gems/webstack)
+  - [![Tags](http://img.shields.io/github/tag/krainboltgreene/webstack.gem.svg?style=flat-square)](http://github.com/krainboltgreene/webstack.gem/tags)
+  - [![Releases](http://img.shields.io/github/release/krainboltgreene/webstack.gem.svg?style=flat-square)](http://github.com/krainboltgreene/webstack.gem/releases)
+  - [![Issues](http://img.shields.io/github/issues/krainboltgreene/webstack.gem.svg?style=flat-square)](http://github.com/krainboltgreene/webstack.gem/issues)
   - [![License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](http://opensource.org/licenses/MIT)
-  - [![Version](http://img.shields.io/gem/v/blankgem.svg?style=flat-square)](https://rubygems.org/gems/blankgem)
+  - [![Version](http://img.shields.io/gem/v/webstack.svg?style=flat-square)](https://rubygems.org/gems/webstack)
 
 
 TODO: Write a gem description
@@ -27,7 +27,7 @@ Installing
 
 Add this line to your application's Gemfile:
 
-    gem "blankgem", "~> 1.0"
+    gem "webstack", "~> 1.0"
 
 And then execute:
 
@@ -35,7 +35,7 @@ And then execute:
 
 Or install it yourself with:
 
-    $ gem install blankgem
+    $ gem install webstack
 
 
 Contributing
