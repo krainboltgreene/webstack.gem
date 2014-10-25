@@ -13,13 +13,31 @@ webstack
   - [![Version](http://img.shields.io/gem/v/webstack.svg?style=flat-square)](https://rubygems.org/gems/webstack)
 
 
-TODO: Write a gem description
+A simple object oriented way to handle HTTP request and response middleware.
 
 
 Using
 =====
 
-TODO: Write usage instructions here
+
+``` ruby
+require "webstack"
+require "webstack-authentication"
+require "webstack-deserializer"
+require "webstack-serializer"
+require "webstack-content_length"
+require "webstack-accept"
+require "nezumi/server"
+
+# Each cycle calls this middleware block.
+Webstack::Server.new do
+  stack { Deserializer.new(request) }
+  stack { Nezumi::Server.new(request, response) }
+  stack { Serializer.new(response) }
+  stack { Accept.new(response) }
+  stack { ContentLength.new(response) }
+end
+```
 
 
 Installing
